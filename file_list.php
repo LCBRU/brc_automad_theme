@@ -13,7 +13,10 @@
 			@{ text_main }
 		</div>
 		<ul>
-			<@ filelist { glob: @{ files } } @>
+			<@ filelist { 
+				glob: @{ files | def ('*.png, *.pdf') },
+				sort: 'asc'
+			} @>
 
 			<@ foreach in filelist @>
 				<li>
