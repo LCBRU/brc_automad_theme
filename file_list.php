@@ -14,13 +14,13 @@
 		</div>
 		<ul>
 			<@ filelist { 
-				glob: @{ files | def ('*.png, *.pdf') },
+				glob: @{ files | def ('*') },
 				sort: 'asc'
 			} @>
 
 			<@ foreach in filelist @>
 				<li>
-					<a href="@{ :file }">@{ :caption | stripTags }</a>
+					<a href="@{ :file }" target="_blank" >@{ :caption | stripTags }</a>
 				</li>
 			<@ end @>
 		</ul>
