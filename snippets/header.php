@@ -23,12 +23,15 @@
             <span class="d-sm-none">BRC</span>
         </h1>
     </header>
+
+    
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand fas fa-home" href="/"></a>
         <@ newPagelist { } @>
 						<@ foreach in pagelist @>
 							<@ if @{ checkboxShowInNavbar } @>
-								<a class="nav-link" title="@{ title }" href="@{ url }">@{ title }</a>
+								<a class="nav-link <@ if @{ :current } @>uk-active<@ end @>" title="@{ title }" href="@{ url }">@{ title }</a>
 					  <@ end @>
 				<@ end @>
     </nav>
