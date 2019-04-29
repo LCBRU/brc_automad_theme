@@ -61,6 +61,11 @@ footer div {
     color: white;
 }
 
+.navbar a.active {
+    background-color: #e1261c;
+    color: white;
+}
+
 section {
     background-color: white;
     padding: 20px;

@@ -31,7 +31,7 @@
         <@ newPagelist { } @>
 						<@ foreach in pagelist @>
 							<@ if @{ checkboxShowInNavbar } @>
-								<a class="nav-link <@ if @{ :current } @>uk-active<@ end @>" title="@{ title }" href="@{ url }">@{ title }</a>
+								<a class="nav-link <@ if @{ :current } @>active<@ end @>" title="@{ title }" href="@{ url }">@{ title }</a>
 					  <@ end @>
 				<@ end @>
     </nav>
