@@ -27,7 +27,7 @@
     
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand fas fa-home" href="/"></a>
+        <a class="navbar-brand fas fa-home <@ if @{ :current } @>active<@ end @>" href="/"></a>
         <@ newPagelist { } @>
 						<@ foreach in pagelist @>
 							<@ if @{ checkboxShowInNavbar } @>
