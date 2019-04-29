@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/packages/brc_automad_theme/css/brc.css?v=23">
     <link rel="stylesheet" href="/packages/brc_automad_theme/css/site.css?v=23">
 
-    <title>BRC Intranet</title>
+    <title>@{ sitename } / @{ title | def('404') }</title>
   </head>
 
   <body class="container">
