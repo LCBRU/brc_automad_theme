@@ -14,7 +14,7 @@
 		</div>
 		<ul>
 			<@ filelist { 
-				glob: @{ files | def ('*') },
+				glob: @{ files | def ('*.docx, *.pdf, *.pptx') },
 				sort: 'asc'
 			} @>
 
