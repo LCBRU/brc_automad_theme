@@ -6,13 +6,13 @@
 <div>
 	<section>
 		<h2>@{ title }</h2>
-		<p>@{ text_introduction }</p>
+		<p>@{ text_introduction | markdown }</p>
 	</section>
 
 	<div class="card">
 		<div class="card-header"></div>
 		<div class="card-body">
-			@{ text_main }
+			@{ text_main | markdown }
 		</div>
 	</div>
 </div>
