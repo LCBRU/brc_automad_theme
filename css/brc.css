@@ -79,6 +79,7 @@ section {
 section a.link {
     border-radius: 0;
     text-align: left;
+    background: #46a86c;
 }
 
 #main-wrapper {
