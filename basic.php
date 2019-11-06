@@ -9,12 +9,9 @@
 		<p>@{ text_introduction | markdown }</p>
 	</section>
 
-	<div class="card">
-		<div class="card-header"></div>
-		<div class="card-body">
-			@{ text_main | markdown }
-		</div>
-	</div>
+	<section>
+		@{ text_main | markdown }
+	</section>
 </div>
 
 <@ snippets/javascript.php @>

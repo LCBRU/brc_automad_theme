@@ -7,11 +7,10 @@
 		<p>@{ text_introduction | markdown }</p>
 	</section>
 
-	<div class="card">
-		<div class="card-header"></div>
-		<div class="card-body">
+	<section>
+		<p>
 			@{ text_main | markdown }
-		</div>
+		</p>
 		<ul>
 			<@ filelist { 
 				glob: @{ files | def ('*.docx, *.pdf, *.pptx') },
@@ -24,7 +23,7 @@
 				</li>
 			<@ end @>
 		</ul>
-	</div>
+		</section>
 </div>
 	
 <@ snippets/javascript.php @>

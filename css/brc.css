@@ -1,6 +1,10 @@
 html, body {
     background-color: #f1f1f1;
-    color: #333;
+    color: #193e72;
+    font-family: Lato;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar a {
@@ -9,34 +13,34 @@ html, body {
     transition: background-color 0.5s;
 }
 
-header {
-    background-image: url(../images/bars-top.svg);
+header:before {
+    background-color: #ea5d4e;
+    background-image: none;
+    background-position: top left;
+    background-repeat: no-repeat;
     background-size: 100% auto;
-    padding: 15px 0 0 0;
+    content: "";
+    display: block;
+    height: 15px;
+    width: 100%;
+}
+
+header {
+    background-color: white;
+    margin: 0;
 }
 
 header h1 {
-    background-color: white;
-    margin: 0;
-    padding: 50px 10px 10px 10px;
-    font-size: 20px;
+    height: 120px;
+    line-height: 120px;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 40px;
     font-weight: bold;
-    background-image: url(../images/nihr-lbrc-cropped.png);
-    background-size: 200px auto;
+    background-image: url(../images/nihr-lbrc.png);
+    background-size: 270px auto;
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-origin: content-box;
-}
-
-footer {
-    margin-top: 60px;
-}
-
-footer div {
-    background-color: #333;
-    color: white;
-    padding: 10px 10px;
-    font-size: 15px;
+    background-position: center left;
 }
 
 .navbar{
@@ -51,18 +55,18 @@ footer div {
 }
 
 .navbar a:hover {
-    background-color: #e1261c;
+    background-color: #193e72;
     color: white;
 }
 
 .navbar .navbar-brand {
     font-size: 15px;
-    background-color: #e1261c;
+    background-color: #193e72;
     color: white;
 }
 
 .navbar a.active {
-    background-color: #e1261c;
+    background-color: #193e72;
     color: white;
 }
 
@@ -72,28 +76,23 @@ section {
     margin-bottom: 20px;
 }
 
-.card-header {
-    background-color: #76BC43;
-    color: white;
-    font-weight: bold;
+#main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
-.card-body {
-    columns: 2;
+#content {
+  flex: 1;
 }
 
-.card-body a.link {
+footer {
+    background-color: #193e72;;
     color: white;
-    display: block;
-    margin: 0px 50px 20px 50px;
-    background-color: #0083BF;
-    border-color: #0083BF;
-    transition: background-color 1s, border-color 1s;
-    position: relative;
 }
 
-.card-body a.link:hover {
-    color: white;
-    background-color: #00415f;
-    border-color: #00415f;
+footer div {
+    padding: 15px 0px;
+    font-size: 18px;
 }
+
