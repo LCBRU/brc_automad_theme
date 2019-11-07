@@ -13,8 +13,8 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="/packages/brc_automad_theme/css/brc.css?v=23">
-    <link rel="stylesheet" href="/packages/brc_automad_theme/css/site.css?v=23">
+    <link rel="stylesheet" href="/packages/brc_automad_theme/css/brc.css?v=24">
+    <link rel="stylesheet" href="/packages/brc_automad_theme/css/site.css?v=24">
 
     <title>@{ sitename } / @{ title | def('404') }</title>
   </head>
