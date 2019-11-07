@@ -9,7 +9,7 @@
 
     <!-- Fonts -->
     <link rel='stylesheet' id='megamenu-google-fonts-css'  href='//fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=5.2.4' type='text/css' media='all' />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" crossorigin="anonymous">
     <!-- <link rel='stylesheet' id='megamenu-fontawesome-css'  href='https://www.leicesterbrc.nihr.ac.uk/wp-content/plugins/megamenu-pro/icons/fontawesome/css/font-awesome.min.css?ver=1.9' type='text/css' media='all' />
     <link rel='stylesheet' id='megamenu-fontawesome5-css'  href='https://www.leicesterbrc.nihr.ac.uk/wp-content/plugins/megamenu-pro/icons/fontawesome5/css/all.min.css?ver=1.9' type='text/css' media='all' /> -->
     

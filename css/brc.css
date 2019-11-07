@@ -85,7 +85,8 @@ section a.link {
 
 
 section a.link:after {
-    content: "<i class="fas fa-chevron-right"></i>";
+    content: "\f054";
+    font-family: FontAwesome;
     position: absolute;
     top: 5px;
     right: 10px;
