@@ -14,9 +14,9 @@
         } @>
         <@ foreach in pagelist @>
             <section class="subsection">
-                <h3>@{ title }</h3>
+                <h3>@{ title | markdown }</h3>
                 <hr />
-                <p>@{ text }</p>
+                <p>@{ text | markdown }</p>
             </section>
         <@ end @>
     </div>
