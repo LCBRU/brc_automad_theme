@@ -79,6 +79,10 @@ section {
     margin-bottom: 20px;
 }
 
+div.sebsections {
+    columns: 2;
+}
+
 section.links {
     columns: 2;
 }
