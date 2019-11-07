@@ -11,7 +11,7 @@
         <@ newPagelist { 
             type: 'children',
             excludeHidden: false,
-            sort: false
+            sort: "date asc"
         } @>
         <@ foreach in pagelist @>
             <section class="subsection">
