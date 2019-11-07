@@ -82,6 +82,15 @@ section a.link {
     background: #46a86c;
 }
 
+
+section a.link:after {
+    content: "\f054";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
 #main-wrapper {
   display: flex;
   flex-direction: column;
