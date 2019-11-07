@@ -102,6 +102,9 @@ section.links a {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     margin: 0px 10px 10px 10px;
     text-decoration: none;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 
