@@ -76,6 +76,10 @@ section {
     margin-bottom: 20px;
 }
 
+section.links {
+    columns: 2;
+}
+
 section.links a {
     border-radius: 0;
     text-align: left;
