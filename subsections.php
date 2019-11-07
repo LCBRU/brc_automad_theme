@@ -18,7 +18,7 @@
             <p>
                 @{ text }
             </p>
-        </div>
+        </section>
     <@ end @>
 </div>
 
