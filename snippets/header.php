@@ -9,7 +9,9 @@
 
     <!-- Fonts -->
     <link rel='stylesheet' id='megamenu-google-fonts-css'  href='//fonts.googleapis.com/css?family=Lato%3A400%2C700&#038;ver=5.2.4' type='text/css' media='all' />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> -->
+    <link rel='stylesheet' id='megamenu-fontawesome-css'  href='https://www.leicesterbrc.nihr.ac.uk/wp-content/plugins/megamenu-pro/icons/fontawesome/css/font-awesome.min.css?ver=1.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='megamenu-fontawesome5-css'  href='https://www.leicesterbrc.nihr.ac.uk/wp-content/plugins/megamenu-pro/icons/fontawesome5/css/all.min.css?ver=1.9' type='text/css' media='all' />
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
