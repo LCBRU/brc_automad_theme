@@ -86,7 +86,7 @@ section a.link {
 
 section a.link:after {
     content: "\f054";
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     position: absolute;
     top: 5px;
     right: 10px;
