@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="/packages/brc_automad_theme/css/brc.css?v=29">
     <link rel="stylesheet" href="/packages/brc_automad_theme/css/site.css?v=29">
 
+    <!-- Favicons -->
+    <link rel="icon" href="/packages/brc_automad_theme/images/favicon.png" sizes="32x32" />
+    <link rel="apple-touch-icon-precomposed" href="/packages/brc_automad_theme/images/favicon.png" />
+    <meta name="msapplication-TileImage" content="/packages/brc_automad_theme/images/favicon.png" />
+
     <title>@{ sitename } / @{ title | def('404') }</title>
   </head>
 
