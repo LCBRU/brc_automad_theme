@@ -10,7 +10,8 @@
     <div class="sebsections">
         <@ newPagelist { 
             type: 'children',
-            excludeHidden: false 
+            excludeHidden: false,
+            sort: false
         } @>
         <@ foreach in pagelist @>
             <section class="subsection">
