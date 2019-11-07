@@ -7,21 +7,19 @@
 		<p>@{ text_introduction | markdown }</p>
 	</section>
 
-	<section class="subsections">
-        <@ newPagelist { 
-            type: 'children',
-            excludeHidden: false 
-        } @>
-        <@ foreach in pagelist @>
-            <div class="subsection">
-                <h2>@{ title }</h2>
-                <hr />
-                <p>
-                    @{ text }
-                </p>
-            </div>
-        <@ end @>
-	</section>
+    <@ newPagelist { 
+        type: 'children',
+        excludeHidden: false 
+    } @>
+    <@ foreach in pagelist @>
+        <section class="subsection">
+            <h3>@{ title }</h3>
+            <hr />
+            <p>
+                @{ text }
+            </p>
+        </div>
+    <@ end @>
 </div>
 
 <@ snippets/javascript.php @>
