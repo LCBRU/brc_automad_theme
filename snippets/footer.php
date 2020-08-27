@@ -16,7 +16,7 @@
 						<dt>Email</dt>
 						<dd><a href="mailto:sdrequests@uhl-tr.nhs.uk">sdrequests@uhl-tr.nhs.uk</a></dd>
 						<dt>Self Service</dt>
-						<dd><a href="http://uhlldweb11/servicedesk.WebAccess">UHL IT Servicedesk</a></dd>
+						<dd><a href="http://servicedesk.xuhl-tr.nhs.uk/">UHL IT Servicedesk</a></dd>
 					</dl>
 
 					<h4>UoL</h4>
