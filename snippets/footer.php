@@ -11,10 +11,8 @@
 					<h4>UHL</h4>
 
 					<dl>
-						<dt>Tel (internal)</dt>
-						<dd>#8000</dd>
-						<dt>Tel (external)</dt>
-						<dd>0116 258 8000</dd>
+						<dt>Tel</dt>
+						<dd>0116 258 8000 (#8000)</dd>
 						<dt>Email</dt>
 						<dd><a href="mailto:sdrequests@uhl-tr.nhs.uk">sdrequests@uhl-tr.nhs.uk</a></dd>
 						<dt>Self Service</dt>
