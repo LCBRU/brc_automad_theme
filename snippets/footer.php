@@ -41,7 +41,7 @@
 				</section>
 
 				<section>
-					<a class="twitter-timeline" href="https://twitter.com/LeicesterBRC?ref_src=twsrc%5Etfw">Tweets by LeicesterBRC</a>
+					<a class="twitter-timeline" data-tweet-limit="3" href="https://twitter.com/LeicesterBRC?ref_src=twsrc%5Etfw">Tweets by LeicesterBRC</a>
 					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 				</section>
 			</div>
