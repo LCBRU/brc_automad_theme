@@ -1,44 +1,47 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 
 			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3">
 				<section>
 
-					<h2>IT Helpdesks</h2>
+					<h3>IT Helpdesks</h3>
 
 					<hr>
 
-					<h3>UHL</h3>
+					<h4>UHL</h4>
 
-					<p>
-						<ul>
-							<li>Tel (internal): #8000</li>
-							<li>Tel (external): 0116 258 8000</li>
-							<li>Email: <a href="mailto:sdrequests@uhl-tr.nhs.uk">sdrequests@uhl-tr.nhs.uk</a></li>
-							<li>Website: <a href="http://uhlldweb11/servicedesk.WebAccess">UHL IT Servicedesk</a></li>
-						</ul>
-					</p>
+					<dl>
+						<dt>Tel (internal)</dt>
+						<dd>#8000</dd>
+						<dt>Tel (external)</dt>
+						<dd>0116 258 8000</dd>
+						<dt>Email</dt>
+						<dd><a href="mailto:sdrequests@uhl-tr.nhs.uk">sdrequests@uhl-tr.nhs.uk</a></dd>
+						<dt>Self Service</dt>
+						<dd><a href="http://uhlldweb11/servicedesk.WebAccess">UHL IT Servicedesk</a></dd>
+					</dl>
 
-					<h3>University of Leicester</h3>
+					<h4>UoL</h4>
 
-					<p>
-						<ul>
-							<li>Tel: 0116 252 2253</li>
-							<li>Email: <a href="mailto:ithelp@le.ac.uk">ithelp@le.ac.uk</a></li>
-							<li>Website: <a href="https://ithelp.le.ac.uk/webdesk.webaccess/">Self Service Website</a></li>
-							<li>Documentation: <a href="https://www2.le.ac.uk/offices/itservices/ithelp/help/it-service-desk">IT Service Desk Webpage</a></li>
-						</ul>
-					</p>
+					<dl>
+						<dt>Tel</dt>
+						<dd>0116 252 2253</dd>
+						<dt>Email</dt>
+						<dd><a href="mailto:ithelp@le.ac.uk">ithelp@le.ac.uk</a></dd>
+						<dt>Self Service</dt>
+						<dd><a href="https://ithelp.le.ac.uk/webdesk.webaccess/">Self Service Website</a></dd>
+						<dt>Documentation</dt>
+						<dd><a href="https://www2.le.ac.uk/offices/itservices/ithelp/help/it-service-desk">IT Service Desk Webpage</a></dd>
+					</dl>
 
-					<h3>BRC IT</h3>
+					<h4>BRC IT</h4>
 
-					<p>
-						<ul>
-							<li>Email: <a href="mailto:richard.a.bramley@uhl-tr.nhs.uk">Richard Bramley</a></li>
-						</ul>
-					</p>
-
+					<dl>
+						<dt>Email</dt>
+						<dd><a href="mailto:richard.a.bramley@uhl-tr.nhs.uk">Richard Bramley</a></dd>
+					</dl>
 				</section>
+
 				<section>
 					<a class="twitter-timeline" href="https://twitter.com/LeicesterBRC?ref_src=twsrc%5Etfw">Tweets by LeicesterBRC</a>
 					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
