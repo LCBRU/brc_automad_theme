@@ -43,6 +43,7 @@ header h1 {
 
 .navbar{
     padding: 10px 0;
+    grid-column: 1 / 4;
 }
 
 .navbar a {
@@ -131,12 +132,13 @@ section.links a:after {
 
 #main-wrapper {
   display: flex;
+  flex-shrink: 0;
   flex-direction: column;
   min-height: 100%;
 }
 
 #content {
-  flex: 1;
+    flex: 1 0 auto;
 }
 
 footer {
@@ -144,8 +146,8 @@ footer {
     color: white;
 }
 
+
 footer div {
     padding: 15px 0px;
     font-size: 18px;
 }
-
