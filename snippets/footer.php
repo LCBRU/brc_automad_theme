@@ -1,7 +1,7 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!'); ?>
 
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<section>
 
 					<h2>IT Helpdesks</h2>
