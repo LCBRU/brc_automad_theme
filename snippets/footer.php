@@ -30,6 +30,8 @@
 						<dd><a href="https://ithelp.le.ac.uk/webdesk.webaccess/">Self Service Website</a></dd>
 						<dt>Documentation</dt>
 						<dd><a href="https://www2.le.ac.uk/offices/itservices/ithelp/help/it-service-desk">IT Service Desk Webpage</a></dd>
+						<dt>Department IT Contact (DITC)</dt>
+						<dd><a href="https://uniofleicester.sharepoint.com/sites/staff/representative-roles/departmental-it-contact/SitePages/ditc-list.aspx">DITCs</a></dd>
 					</dl>
 
 					<h4>BRC IT</h4>
