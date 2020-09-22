@@ -14,7 +14,7 @@
             sort: "order asc"
         } @>
         <@ foreach in pagelist @>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <section class="subsection">
                     <h3>@{ title | markdown }</h3>
                     <hr />
