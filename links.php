@@ -9,8 +9,10 @@
 		<p>@{ text_introduction | markdown }</p>
 	</section>
 
-	<section class="links">
-		@{ text_main | markdown }
+	<section class="links row">
+		<div class="col-md-6">
+			@{ text_main | markdown }
+		</div>
 	</section>
 </div>
 
