@@ -7,14 +7,14 @@
 		<p>@{ text_introduction | markdown }</p>
 	</section>
 
-    <div class="sebsections">
+    <div class="sebsections row">
         <@ newPagelist { 
             type: 'children',
             excludeHidden: false,
             sort: "order asc"
         } @>
         <@ foreach in pagelist @>
-            <section class="subsection">
+            <section class="subsection col-md-6">
                 <h3>@{ title | markdown }</h3>
                 <hr />
                 <p>@{ text | markdown }</p>
