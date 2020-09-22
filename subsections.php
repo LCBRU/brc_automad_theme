@@ -14,11 +14,13 @@
             sort: "order asc"
         } @>
         <@ foreach in pagelist @>
-            <section class="subsection col-md-6">
-                <h3>@{ title | markdown }</h3>
-                <hr />
-                <p>@{ text | markdown }</p>
-            </section>
+            <div class="col-md-6">
+                <section class="subsection">
+                    <h3>@{ title | markdown }</h3>
+                    <hr />
+                    <p>@{ text | markdown }</p>
+                </section>
+            </div>
         <@ end @>
     </div>
 </div>
