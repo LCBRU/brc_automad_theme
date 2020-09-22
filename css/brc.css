@@ -85,7 +85,7 @@ section {
     break-inside: avoid;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
     margin-right: 20px;
 }
 
