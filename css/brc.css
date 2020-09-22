@@ -85,6 +85,8 @@ section {
     break-inside: avoid;
 }
 
+/*
+
 div.sebsections {
     columns: 2;
 }
@@ -93,7 +95,9 @@ section.links {
     columns: 2;
 }
 
-section.links a {
+*/
+
+ section.links a {
     border-radius: 0;
     text-align: left;
     background: #46a86c;
