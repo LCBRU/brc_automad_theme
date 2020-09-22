@@ -81,12 +81,6 @@ header h1 {
 section {
     background-color: white;
     padding: 20px;
-    margin-bottom: 20px;
-    break-inside: avoid;
-}
-
-.subsections div:nth-child(odd) {
-    padding-right: 10px;
 }
 
 /*
