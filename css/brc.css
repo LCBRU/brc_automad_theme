@@ -85,6 +85,10 @@ section {
     break-inside: avoid;
 }
 
+section:nth-child(even) {
+    margin-right: 20px;
+}
+
 /*
 
 div.sebsections {
