@@ -16,7 +16,7 @@
         <@ foreach in pagelist @>
             <div class="col-lg-6">
                 <section class="subsection">
-                    <h3>@{ title | markdown }</h3>
+                    <h3><a name="@{ name }" >@{ title | markdown }</a></h3>
                     <hr />
                     <p>@{ text | markdown }</p>
                 </section>
