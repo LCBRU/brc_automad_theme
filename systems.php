@@ -27,12 +27,12 @@
                     <@ if @{ dpia_url } @>
                         <a class="btn btn-primary" href="@{dpia_url}" download>DPIA</a>
                     <@ end @>
-                    <@ if @{ protocol_statement } @>
+                    <@ if @{ protocol_statement_id } @>
                         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                             Protocol Statement
                         </a>
                         <div class="collapse" id="collapseExample">
-                            <div class="card card-body">@{ protocol_statement }</div>
+                            <div class="card card-body protocol_statement" data-protocol-statement-id></div>
                         </div>
                     <@ end @>
                 </section>

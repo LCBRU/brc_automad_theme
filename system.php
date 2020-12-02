@@ -7,5 +7,5 @@
 <a href="@{dpia_url}">DPIA</a>
 <h3>Protocol Statement</h3>
 <p>
-    @{ protocol_statement }
+    @{ protocol_statement_id }
 </p>
