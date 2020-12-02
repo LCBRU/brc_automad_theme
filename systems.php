@@ -20,8 +20,13 @@
                     <hr />
                     <p>@{ text | markdown }</p>
                     <hr />
-                    <a href="">DPIA</a>
-                    <a href="">Protocol Statement</a>
+                    <a href="@{dpia_url}">DPIA</a>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Protocol Statement
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">@{ protocol_statement }</div>
+                    </div>
                 </section>
             </div>
         <@ end @>
