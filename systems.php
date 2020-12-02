@@ -32,7 +32,7 @@
                             Protocol Statement
                         </a>
                         <div class="collapse" id="collapseExample">
-                            <div class="card card-body protocol_statement" data-protocol-statement-id></div>
+                            <div class="card card-body protocol_statement" data-protocol-statement-id="@{ protocol_statement_id }"></div>
                         </div>
                     <@ end @>
                 </section>
