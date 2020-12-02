@@ -11,17 +11,17 @@
         <@ newPagelist { 
             type: 'children',
             excludeHidden: false,
-            sort: "order asc"
+            sort: "title asc"
         } @>
         <@ foreach in pagelist @>
             <div class="col-lg-6">
                 <section class="system">
-                    <h3><a name="@{ name }" href="@{url}">@{ title | markdown }</a></h3>
+                    <h3><a class="@{visibility}" href="@{url}">@{ title | markdown }</a></h3>
                     <hr />
                     <p>@{ text | markdown }</p>
                     <hr />
                     <@ if @{ dpia_url } @>
-                        <a class="btn btn-primary" href="@{dpia_url}" target="_blank" download>DPIA</a>
+                        <a class="btn btn-primary" href="@{dpia_url}" download>DPIA</a>
                     <@ end @>
                     <@ if @{ protocol_statement } @>
                         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
