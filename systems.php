@@ -20,13 +20,17 @@
                     <hr />
                     <p>@{ text | markdown }</p>
                     <hr />
-                    <a href="@{dpia_url}">DPIA</a>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        Protocol Statement
-                    </a>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body">@{ protocol_statement }</div>
-                    </div>
+                    <@ if @{ dpia_url } @>
+                        <a class="btn btn-primary" href="@{dpia_url}" target="_blank">DPIA</a>
+                    <@ end @>
+                    <@ if @{ protocol_statement } @>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Protocol Statement
+                        </a>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">@{ protocol_statement }</div>
+                        </div>
+                    <@ end @>
                 </section>
             </div>
         <@ end @>
