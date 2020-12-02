@@ -16,10 +16,14 @@
         <@ foreach in pagelist @>
             <div class="col-lg-6">
                 <section class="system">
-                    <h3><a class="@{visibility}" href="@{url}">@{ title | markdown }</a></h3>
+                    <h3>@{ title }</h3>
+                    <@ if @{ text } @>
+                        <hr />
+                        <p>@{ text | markdown }</p>
+                    <@ end @>
+
                     <hr />
-                    <p>@{ text | markdown }</p>
-                    <hr />
+                    <a class="btn btn-primary @{visibility}" href="@{url}" download>Link</a>
                     <@ if @{ dpia_url } @>
                         <a class="btn btn-primary" href="@{dpia_url}" download>DPIA</a>
                     <@ end @>
