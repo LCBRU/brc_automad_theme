@@ -21,7 +21,7 @@
                     <p>@{ text | markdown }</p>
                     <hr />
                     <@ if @{ dpia_url } @>
-                        <a class="btn btn-primary" href="@{dpia_url}" target="_blank">DPIA</a>
+                        <a class="btn btn-primary" href="@{dpia_url}" target="_blank" download>DPIA</a>
                     <@ end @>
                     <@ if @{ protocol_statement } @>
                         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
