@@ -16,7 +16,7 @@
         <@ foreach in pagelist @>
             <div class="col-lg-6">
                 <section class="system">
-                    <h3>@{ title }</h3>
+                    <h3 class="@{visibility}">@{ title }</h3>
                     <@ if @{ text } @>
                         <hr />
                         <p>@{ text | markdown }</p>
