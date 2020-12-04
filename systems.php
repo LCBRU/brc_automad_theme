@@ -79,7 +79,7 @@ $(document).ready(function(){
         var modal = $(this);
         modal.find('.modal-title').text('Protocol Statement for ' + title);
 
-        url = "https://info.lbrc.le.ac.uk/information_governance/security_statement/text/" +  ps.data("protocol-statement-id");
+        url = "https://info.lbrc.le.ac.uk/information_governance/security_statement/text/" +  protocol_statement_id;
 
         callback = function(m) {
             return function (data) {
