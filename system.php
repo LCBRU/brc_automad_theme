@@ -1,5 +1,5 @@
 <?php defined('AUTOMAD') or die('Direct access not permitted!');?>
-<h2><a class="@{visibility}" href="@{url}">@{ title }</a></h2>
+<h2><a class="@{visibility}" href="@{application_url}">@{ title }</a></h2>
 <h3>Description</h3>
 <p>
     @{ text }

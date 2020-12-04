@@ -23,7 +23,9 @@
                     <@ end @>
 
                     <hr />
-                    <a class="btn btn-primary @{visibility}" href="@{url}" download>Link</a>
+                    <@ if @{ application_url } @>
+                        <a class="btn btn-primary @{visibility}" href="@{application_url}" download>Link</a>
+                    <@ end @>
                     <@ if @{ dpia_url } @>
                         <a class="btn btn-primary" href="@{dpia_url}" download>DPIA</a>
                     <@ end @>
