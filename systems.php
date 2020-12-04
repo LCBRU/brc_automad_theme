@@ -16,7 +16,7 @@
         <@ foreach in pagelist @>
             <div class="col-lg-6">
                 <section class="system">
-                    <h3 class="@{visibility}">@{ title }</h3>
+                    <h4 class="@{visibility}">@{ title }</h4>
                     <@ if @{ text } @>
                         <hr />
                         <p>@{ text | markdown }</p>
@@ -24,13 +24,13 @@
 
                     <hr />
                     <@ if @{ application_url } @>
-                        <a class="btn btn-primary @{visibility}" href="@{application_url}" target='_blank'>Link</a>
+                        <a class="btn btn-primary btn-sm @{visibility}" href="@{application_url}" target='_blank'>Link</a>
                     <@ end @>
                     <@ if @{ dpia_url } @>
-                        <a class="btn btn-primary" href="@{dpia_url}" download>DPIA</a>
+                        <a class="btn btn-primary btn-sm" href="@{dpia_url}" download>DPIA</a>
                     <@ end @>
                     <@ if @{ protocol_statement_id } @>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-title="@{ title }" data-protocol-statement-id="@{ protocol_statement_id }">Protocol Statement</button>
+                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal" data-title="@{ title }" data-protocol-statement-id="@{ protocol_statement_id }">Protocol Statement</button>
                     <@ end @>
                 </section>
             </div>
