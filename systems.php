@@ -70,7 +70,7 @@ $(document).ready(function(){
         callback = function(m) {
             return function (data) {
                 content = '<p>' + data.replace(/\n([ \t]*\n)+/g, '</p><p>').replace('/\n/g', '<br />') + '</p>';
-                m.find('.modal-body').val(content);
+                m.find('.modal-body').html(content);
             }
         }
 
