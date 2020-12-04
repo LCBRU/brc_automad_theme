@@ -30,7 +30,7 @@
                         <a class="btn btn-primary" href="@{dpia_url}" download>DPIA</a>
                     <@ end @>
                     <@ if @{ protocol_statement_id } @>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-protocol-statement-id="@{ protocol_statement_id }">Protocol Statement</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-title="@{ title }" data-protocol-statement-id="@{ protocol_statement_id }">Protocol Statement</button>
                     <@ end @>
                 </section>
             </div>
@@ -73,10 +73,11 @@
 $(document).ready(function(){
      $('#exampleModal').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget);
-        var recipient = button.data('protocol-statement-id');
+        var protocol_statement_id = button.data('protocol-statement-id');
+        var title = button.data('title');
 
         var modal = $(this);
-        modal.find('.modal-title').text('New message to ' + recipient);
+        modal.find('.modal-title').text('Protocol Statement for ' + title);
         modal.find('.modal-body input').val(recipient);
     });
 });
