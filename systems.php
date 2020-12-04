@@ -69,12 +69,14 @@
 
 <script>
     $('#exampleModal').on('show.bs.modal', function (event) {
-    var button = $(event.relatedTarget)
-    var recipient = button.data('protocol-statement-id')
+        alert('Hello');
 
-    var modal = $(this)
-    modal.find('.modal-title').text('New message to ' + recipient)
-    modal.find('.modal-body input').val(recipient)
+        var button = $(event.relatedTarget)
+        var recipient = button.data('protocol-statement-id')
+
+        var modal = $(this)
+        modal.find('.modal-title').text('New message to ' + recipient)
+        modal.find('.modal-body input').val(recipient)
     })
 </script>
 
