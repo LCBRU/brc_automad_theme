@@ -78,7 +78,18 @@ $(document).ready(function(){
 
         var modal = $(this);
         modal.find('.modal-title').text('Protocol Statement for ' + title);
-        modal.find('.modal-body input').val(recipient);
+
+        url = "https://info.lbrc.le.ac.uk/information_governance/security_statement/text/" +  ps.data("protocol-statement-id");
+
+        callback = function(m) {
+            return function (data) {
+                content = '<p>' + data.replace(/\n([ \t]*\n)+/g, '</p><p>').replace('/\n/g', '<br />') + '</p>';
+                m.find('.modal-body input').val(content);
+            }
+        }
+
+        $.get(url, callback(modal));
+
     });
 });
 </script>
