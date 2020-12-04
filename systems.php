@@ -67,9 +67,10 @@
   </div>
 </div>
 
-<script >
+<@ snippets/javascript.php @>
+
+<script>
 $(document).ready(function(){
-    alert('Hello');
      $('#exampleModal').on('show.bs.modal', function (event) {
         var button = $(event.relatedTarget);
         var recipient = button.data('protocol-statement-id');
@@ -81,5 +82,5 @@ $(document).ready(function(){
 });
 </script>
 
-<@ snippets/javascript.php @>
 <@ snippets/footer.php @>
+
