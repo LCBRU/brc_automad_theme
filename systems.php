@@ -67,17 +67,18 @@
   </div>
 </div>
 
-<script>
-    $('#exampleModal').on('show.bs.modal', function (event) {
-        alert('Hello');
+<script >
+$(document).ready(function(){
+    alert('Hello');
+     $('#exampleModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var recipient = button.data('protocol-statement-id');
 
-        var button = $(event.relatedTarget)
-        var recipient = button.data('protocol-statement-id')
-
-        var modal = $(this)
-        modal.find('.modal-title').text('New message to ' + recipient)
-        modal.find('.modal-body input').val(recipient)
-    })
+        var modal = $(this);
+        modal.find('.modal-title').text('New message to ' + recipient);
+        modal.find('.modal-body input').val(recipient);
+    });
+});
 </script>
 
 <@ snippets/javascript.php @>
