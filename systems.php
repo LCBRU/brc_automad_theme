@@ -24,7 +24,7 @@
 
                     <hr />
                     <@ if @{ application_url } @>
-                        <a class="btn btn-primary @{visibility}" href="@{application_url}" download>Link</a>
+                        <a class="btn btn-primary @{visibility}" href="@{application_url}" target='_blank'>Link</a>
                     <@ end @>
                     <@ if @{ dpia_url } @>
                         <a class="btn btn-primary" href="@{dpia_url}" download>DPIA</a>
