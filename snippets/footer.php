@@ -2,6 +2,7 @@
 
 			</div>
 			<div class="col-lg-3">
+				@{ side_bar }
 				<section>
 
 					<h3>IT Helpdesks</h3>
