@@ -29,7 +29,7 @@
 
         <header>
             <div class="container">
-              <h1>Info</h1>
+              <h1>@{ sitename }</h1>
             </div>
         </header>
 
